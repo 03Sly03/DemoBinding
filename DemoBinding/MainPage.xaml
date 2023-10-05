@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoBinding.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <VerticalStackLayout>
+                <Label Text="Nom : " />
+                <Editor x:Name="EditorLastname" Text="{Binding Lastname}"></Editor>
+                <Label Text="Prénom : " />
+                <Editor x:Name="EditorFirstname" Text="{Binding Firstname}"></Editor>
+                <Button x:Name="ValidButton" Text="Envoyer" Command="{Binding ToUpperCommand}"></Button>
+                <Label Text="Resultat : " />
+                <Editor x:Name="Result" Text="{Binding FullName}"></Editor>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExercicesJustePrix.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="{Binding Title}"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+
+            <Image
+                Source="{Binding ImgUrl}"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            
+            <Label
+                Text="{Binding Description}"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+            
+            <!--<Label
+                Text="{Binding Price}"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>-->
+
+            <Label
+                Text="Entrez votre prix : "
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Entry Placeholder="Votre prix" x:Name="UserPrice" Text="{Binding GuessPrice}"/>
+
+            <Button Text="Indice" x:Name="Hint" Command="{Binding CheckPriceCommand}" BackgroundColor="Green"/>
+            <Label Text="Indice : "/>
+            <Label Text="{Binding Hint}" />
+            <Label Text="Resultat : "/>
+            <Label x:Name="Resultat" Text="{Binding Result}" BackgroundColor="DarkGray"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

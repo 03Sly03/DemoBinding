@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBinding", "DemoBinding\DemoBinding.csproj", "{29D62387-C0FA-45A1-BBAB-BE7A670164D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicesJustePrix", "ExercicesJustePrix\ExercicesJustePrix.csproj", "{79B7DE33-1674-4E01-9CB6-DF922CDE1340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29D62387-C0FA-45A1-BBAB-BE7A670164D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D62387-C0FA-45A1-BBAB-BE7A670164D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D62387-C0FA-45A1-BBAB-BE7A670164D5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{29D62387-C0FA-45A1-BBAB-BE7A670164D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D62387-C0FA-45A1-BBAB-BE7A670164D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D62387-C0FA-45A1-BBAB-BE7A670164D5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{79B7DE33-1674-4E01-9CB6-DF922CDE1340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B7DE33-1674-4E01-9CB6-DF922CDE1340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B7DE33-1674-4E01-9CB6-DF922CDE1340}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{79B7DE33-1674-4E01-9CB6-DF922CDE1340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B7DE33-1674-4E01-9CB6-DF922CDE1340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B7DE33-1674-4E01-9CB6-DF922CDE1340}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {219664D0-B025-4B38-AB91-B72EC7E0D77C}
+	EndGlobalSection
+EndGlobal
